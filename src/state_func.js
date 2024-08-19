@@ -16,6 +16,7 @@ export default function MassageBox() {
     }
 
     let msgboxStyle={
+        
         display:'inline-block',
         width:350,
         fontSize:size,
