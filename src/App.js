@@ -1,18 +1,13 @@
 import React from 'react'
-import './style.css'
-import Calendar from './class_compon';
+import RefsFunc from './refs_gunc'
+import MassageBox from './state_func'
 
 
 
 
-function App(){
+export default function App(){
   return(
-    <>
-    <h2>DDDDDDeveloperThai.com</h2>
-    <div className='title'>React and React Native</div>
-    <h1><center><Calendar/></center></h1>
-  </>
+    //<RefsFunc />
+    <MassageBox />
   )
-  
 }
-export default App;
